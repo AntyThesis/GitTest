@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Projects\\GitTest\\Source\\GitTest\\GitTest.Build.cs",
+		"D:\\Unreal Projects\\GitTest\\Source\\GitTest.Target.cs",
+		"D:\\Unreal Projects\\GitTest\\Source\\GitTestEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.3"
+}

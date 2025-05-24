@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GitTest",
+			"Path": "..\\Source\\GitTest.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GitTestEditor",
+			"Path": "..\\Source\\GitTestEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
