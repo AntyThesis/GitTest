@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeGitTest_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xBE13A59B,
+				0x50C6D6C8,
 				0x0AAA103A,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeGitTest_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_GitTest.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GitTest(Z_Construct_UPackage__Script_GitTest, TEXT("/Script/GitTest"), Z_Registration_Info_UPackage__Script_GitTest, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xBE13A59B, 0x0AAA103A));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GitTest(Z_Construct_UPackage__Script_GitTest, TEXT("/Script/GitTest"), Z_Registration_Info_UPackage__Script_GitTest, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x50C6D6C8, 0x0AAA103A));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

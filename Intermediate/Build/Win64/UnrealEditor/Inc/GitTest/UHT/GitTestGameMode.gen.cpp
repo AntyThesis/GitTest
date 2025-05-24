@@ -78,14 +78,14 @@ AGitTestGameMode::~AGitTestGameMode() {}
 // End Class AGitTestGameMode
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Unreal_Projects_GitTest_Source_GitTest_GitTestGameMode_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_Alexis_source_repos_AntyThesis_GitTest_Source_GitTest_GitTestGameMode_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AGitTestGameMode, AGitTestGameMode::StaticClass, TEXT("AGitTestGameMode"), &Z_Registration_Info_UClass_AGitTestGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGitTestGameMode), 537631873U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_GitTest_Source_GitTest_GitTestGameMode_h_51880994(TEXT("/Script/GitTest"),
-	Z_CompiledInDeferFile_FID_Unreal_Projects_GitTest_Source_GitTest_GitTestGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_GitTest_Source_GitTest_GitTestGameMode_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Alexis_source_repos_AntyThesis_GitTest_Source_GitTest_GitTestGameMode_h_51880994(TEXT("/Script/GitTest"),
+	Z_CompiledInDeferFile_FID_Users_Alexis_source_repos_AntyThesis_GitTest_Source_GitTest_GitTestGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Alexis_source_repos_AntyThesis_GitTest_Source_GitTest_GitTestGameMode_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

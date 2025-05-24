@@ -1,0 +1,19 @@
+{
+  "targets": {
+    "GitTestEditor": {
+      "targetType": "Editor",
+      "targetPath": "C:\\Users\\Alexis\\source\\repos\\AntyThesis\\GitTest\\Source\\GitTestEditor.Target.cs",
+      "projectPath": "C:\\Users\\Alexis\\source\\repos\\AntyThesis\\GitTest\\GitTest.uproject",
+      "configurations": [
+        "Development"
+      ],
+      "platforms": [
+        "Win64"
+      ],
+      "architectures": [],
+      "configurationsAndPlatforms": [
+        "Development-Win64"
+      ]
+    }
+  }
+}
