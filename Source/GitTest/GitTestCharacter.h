@@ -15,6 +15,7 @@ public:
 	AGitTestCharacter();
 
 	int Health;
+	int NewHealth;
 
 	// Called every frame.
 	virtual void Tick(float DeltaSeconds) override;
