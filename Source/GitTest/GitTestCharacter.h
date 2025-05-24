@@ -14,6 +14,8 @@ class AGitTestCharacter : public ACharacter
 public:
 	AGitTestCharacter();
 
+	int Health;
+
 	// Called every frame.
 	virtual void Tick(float DeltaSeconds) override;
 
