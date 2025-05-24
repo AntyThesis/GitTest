@@ -16,6 +16,7 @@ public:
 
 	int Health;
 	int NewHealth;
+	int TestHealth;
 
 	// Called every frame.
 	virtual void Tick(float DeltaSeconds) override;
