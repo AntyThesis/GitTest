@@ -49,3 +49,10 @@ void AGitTestCharacter::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
 }
+
+
+// Called when the game starts or when spawned
+void AGitTestCharacter::BeginPlay() 
+{
+    Super::BeginPlay();
+}
