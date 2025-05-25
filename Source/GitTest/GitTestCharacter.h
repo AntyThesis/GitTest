@@ -14,12 +14,15 @@ class AGitTestCharacter : public ACharacter
 public:
 	AGitTestCharacter();
 
+	//UPROPERTY(BlueprintCallable)
+	//void Health();
 
-
-
-	int Health;
+	
+	
 	int NewHealth;
-	int TestHealth;
+	int HealthAmount;
+	int MaxHealth;
+	int CurrentHealth;
 	
 	// Called every frame.
 	virtual void Tick(float DeltaSeconds) override;
@@ -38,9 +41,14 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 
+
+
 public:
 	
+	//Called at beginning of game
 	virtual void BeginPlay() override;
+
+
 };
 
 

@@ -31,7 +31,7 @@ AGitTestCharacter::AGitTestCharacter()
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
 	CameraBoom->SetUsingAbsoluteRotation(true); // Don't want arm to rotate when character does
-	CameraBoom->TargetArmLength = 800.f;
+	CameraBoom->TargetArmLength = 2000.f;
 	CameraBoom->SetRelativeRotation(FRotator(-60.f, 0.f, 0.f));
 	CameraBoom->bDoCollisionTest = false; // Don't want to pull camera in when it collides with level
 
@@ -43,6 +43,22 @@ AGitTestCharacter::AGitTestCharacter()
 	// Activate ticking in order to update the cursor every frame.
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
+
+
+	
+
+
+
+	MaxHealth = 100.f;
+	CurrentHealth = MaxHealth;
+    CurrentHealth += HealthAmount;
+	CurrentHealth = FMath::Clamp(CurrentHealth, 0, MaxHealth);
+	
+
+
+
+
+
 }
 
 void AGitTestCharacter::Tick(float DeltaSeconds)
@@ -55,4 +71,13 @@ void AGitTestCharacter::Tick(float DeltaSeconds)
 void AGitTestCharacter::BeginPlay() 
 {
     Super::BeginPlay();
+
+	// Set the initial health values
+	
+	 if (GEngine) {
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Emerald, FString::Printf(TEXT("Health %d")));
+	
+		
+		}
+	
 }
