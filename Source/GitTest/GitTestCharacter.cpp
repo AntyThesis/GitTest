@@ -47,12 +47,12 @@ AGitTestCharacter::AGitTestCharacter()
 
 	
 
+	HealthAmount = -50;
 
-
-	MaxHealth = 100.f;
+	MaxHealth = 100;
 	CurrentHealth = MaxHealth;
     CurrentHealth += HealthAmount;
-	CurrentHealth = FMath::Clamp(CurrentHealth, 0, MaxHealth);
+	
 	
 
 
@@ -76,7 +76,7 @@ void AGitTestCharacter::BeginPlay()
 	
 	 if (GEngine) {
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Emerald, FString::Printf(TEXT("Health %d")));
-	
+		CurrentHealth = FMath::Clamp(CurrentHealth, 0, MaxHealth);
 		
 		}
 	
