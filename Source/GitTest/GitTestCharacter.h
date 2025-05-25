@@ -36,3 +36,12 @@ private:
 	class USpringArmComponent* CameraBoom;
 };
 
+//once i was confused on how to start the project looked everywhere would work once in a while.
+//nothing was wrong it was just trying to figure out what type of projects ex:(C++,JS,JAVA,VS,Python)
+//had to open it has an unreal project
+//
+//     File->
+//            Open->
+//                    UnrealEngineProject
+
+
