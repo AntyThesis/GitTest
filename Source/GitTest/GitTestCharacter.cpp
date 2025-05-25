@@ -75,7 +75,7 @@ void AGitTestCharacter::BeginPlay()
 	// Set the initial health values
 	
 	 if (GEngine) {
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Emerald, FString::Printf(TEXT("Health %d")));
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Emerald, FString::Printf(TEXT("Health: %d"),CurrentHealth));
 		CurrentHealth = FMath::Clamp(CurrentHealth, 0, MaxHealth);
 		
 		}
