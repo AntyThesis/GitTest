@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Alexis\\source\\repos\\AntyThesis\\GitTest\\Source\\GitTest\\GitTest.Build.cs",
-		"C:\\Users\\Alexis\\source\\repos\\AntyThesis\\GitTest\\Source\\GitTest.Target.cs",
-		"C:\\Users\\Alexis\\source\\repos\\AntyThesis\\GitTest\\Source\\GitTestEditor.Target.cs"
+		"D:\\Unreal Projects\\GitTest\\Source\\GitTest\\GitTest.Build.cs",
+		"D:\\Unreal Projects\\GitTest\\Source\\GitTest.Target.cs",
+		"D:\\Unreal Projects\\GitTest\\Source\\GitTestEditor.Target.cs"
 	],
-	"EngineVersion": "5.5.4"
+	"EngineVersion": "5.5.3"
 }
